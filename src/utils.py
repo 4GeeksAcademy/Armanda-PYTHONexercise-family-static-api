@@ -32,6 +32,6 @@ def generate_sitemap(app):
     links_html = "".join(["<li><a href='" + y + "'>" + y + "</a></li>" for y in links])
     return """
         <div style="text-align: center;">
-        <img src='https://www.imageneseducativas.com/wp-content/uploads/2022/09/PORTADAS-BONITAS-2.png' />
+        <img src='https://www.imageneseducativas.com/wp-content/uploads/2022/09/PORTADAS-BONITAS-2.png' style="width:500px" />
         <h1>Hello Soy Armanda!</h1>
         My primer trabajo hecho con PYTHON: <ul style="text-align: left;">"""+links_html+"</ul></div>"

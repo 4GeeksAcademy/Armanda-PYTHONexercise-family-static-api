@@ -39,7 +39,16 @@ class FamilyStructure:
             "lucky_numbers": [1],
             "id": self._generate_id()
 
-        }
+        },
+        {
+            "first_name":"Anna ",
+            "last_name": self.last_name,
+            "age": 53,
+            "lucky_numbers": [4, 25, 33, 45],
+            "id": self._generate_id()
+
+        },
+
 
         ]
         

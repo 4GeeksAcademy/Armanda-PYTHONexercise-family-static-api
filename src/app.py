@@ -55,7 +55,7 @@ def add_member():
     jackson_family.add_member(member)
     return jsonify({"msg": "Member added successfully"}), 200
 
-# Aqui con este Endpoints  Eliminar un miembro por su ID
+# Aqui con este Endpoints elimina un miembro por su ID
 @app.route('/member/<int:id>', methods=['DELETE'])
 def delete_member(id):
     member = jackson_family.get_member(id)
